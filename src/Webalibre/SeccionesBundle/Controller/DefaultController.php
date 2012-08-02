@@ -10,6 +10,6 @@ class DefaultController extends Controller
     
     public function homepageAction()
     {
-        return $this->render('WebalibreSeccionesBundle:Default:base.html.twig');
+        return $this->render('WebalibreSeccionesBundle:Default:homepage.html.twig');
     }
 }
