@@ -9,7 +9,8 @@
         </title>
         
         
-        {% block stylesheets %} 
+        {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('bundles/webalibresecciones/css/main.css')}}" type="text/css" media="screen"/>
         {% endblock %}
         <link rel="shortcut icon" type="image/icon" href="{{ asset('bundles/webalibresecciones/images/webalibre.ico') }}" />
         
@@ -17,11 +18,11 @@
     
     <body>
         {% block javascripts %}{% endblock %}
-
-        {% block header %}
-            Bienvendo a W E B A  L I B R E
-        {% endblock %}
-
+        <div class="header">
+            {% block header %}
+                Bienvendo a W E B A  L I B R E
+            {% endblock %}
+        </div>
         {% block body %}
             {% block menu %}
             {% endblock %}            

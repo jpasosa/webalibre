@@ -82,3 +82,42 @@ body * {
 }
 
 /* END FORMATS */
+
+body {
+    background: url("/bundles/webalibresecciones/images/base/bg.png") repeat scroll 0 0 #EEEEEE;
+    color: #000000;
+    font-family: Century Gothic,sans-serif;
+    /*font-size: 13px;*/
+    margin-top: 30px;
+    padding: 0;
+    
+}
+
+  .header {
+  	
+
+  }
+
+  .header .title {
+  	font-family: Tahoma, Arial;
+  	text-align: center;
+  	font-size: 50px;
+	text-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);  
+}
+
+  .header .subtitle {
+  	text-align: center;
+  	font-size: 18px;	
+  	
+  }
+
+    .header .tel {
+  	float: left;
+  	font-size: 12px;	
+  	
+  }
+    .header .email {
+  	float: left;
+  	font-size: 12px;	
+  	
+  }
