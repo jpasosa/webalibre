@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>
+            {% block title %}
+                W E B A L I B R E
+            {% endblock %}
+        </title>
+        
+        
+        {% block stylesheets %} 
+        {% endblock %}
+        <!-- <link rel="shortcut icon" type="image/icon" href="img/taller_de_parejas.ico"> -->
+        <link rel="shortcut icon" type="image/icon" href="{{ asset('bundles/webalibresecciones/images/webalibre.ico') }}" />
+        
+    </head>
+    
+    <body>
+        {% block javascripts %}{% endblock %}
+
+        {% block header %}
+            Bienvendo a W E B A  L I B R E
+        {% endblock %}
+
+        {% block body %} {% endblock %}
+
+        {% block footer %}{% endblock %}
+    </body>
+</html>
