@@ -1,0 +1,7 @@
+parameters:
+#    webalibre_secciones.example.class: Webalibre\SeccionesBundle\Example
+
+services:
+#    webalibre_secciones.example:
+#        class: %webalibre_secciones.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
