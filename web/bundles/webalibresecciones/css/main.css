@@ -78,7 +78,8 @@ ul {
 }
 
 body * {
-	outline: 0
+	outline: 0;
+	/*display: block;*/
 }
 
 /* END FORMATS */
@@ -88,36 +89,88 @@ body {
     color: #000000;
     font-family: Century Gothic,sans-serif;
     /*font-size: 13px;*/
-    margin-top: 30px;
+    margin: 20px 0 0 0;
     padding: 0;
+    display: block;
     
 }
 
-  .header {
+.out-container {
+	font-size: 14px;
+	width: 1100px;
+	margin: 0 auto 0 auto;
+	/*padding: 5px 0;*/
+	display: block;
+}
+  
+
+.out-container .header {
   	
 
-  }
+}
 
-  .header .title {
+.out-container .header .title {
   	font-family: Tahoma, Arial;
   	text-align: center;
   	font-size: 50px;
-	text-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);  
+	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);  
 }
 
-  .header .subtitle {
+.out-container .header .subtitle {
   	text-align: center;
   	font-size: 18px;	
   	
-  }
+}
 
-    .header .tel {
-  	float: left;
+.out-container .header .personal-data {
+	/*float: left;*/
+	display: block;
+}
+
+.out-container .header .personal-data .tel {
   	font-size: 12px;	
-  	
-  }
-    .header .email {
-  	float: left;
+}
+
+.out-container .header .personal-data .email {
   	font-size: 12px;	
-  	
-  }
+}
+
+.out-container .nav-container {
+	border-bottom: 1px dashed #666666;
+	border-top: 1px dashed #666666;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	/*z-index: 1000;*/
+	margin: 5px auto 5px auto;
+}
+
+.out-container .nav-container nav {
+	border-bottom: 1px dashed #666666;
+	border-top: 1px dashed #666666;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	/*z-index: 1000;*/
+}
+
+.out-container .nav-container nav ul.nav {
+	list-style: none;
+}
+
+.out-container .nav-container nav ul.nav li {
+	margin: 0 15px 0 15px;
+	font-size: 20px;
+	position: relative;
+	display: inline-block;
+	zoom: 1;
+}
+
+.out-container .nav-container nav ul.nav li:hover {
+	background: url("/bundles/webalibresecciones/images/btn-fondo.png") no-repeat scroll 0 0 #fbd19e; ;
+	text-decoration: none;
+	/*background-color: #ccaee2;*/
+	opacity: 1.0;
+	/*filter:alpha(opacity=100); /* For IE8 and earlier */
+	/*width: 140px;*/
+}
