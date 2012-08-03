@@ -24,26 +24,29 @@
                     Bienvendo a W E B A  L I B R E
                 {% endblock %}
             </div>
-            {% block body %}
-                {% block menu %}
-                    <div class="nav-container">
-                        <nav>
-                            <ul class="nav">
-                                <li> <a href="#"> HOME </a> </li>
-                                <li> <a href="#"> SYMFONY 2 </a> </li>
-                                <li> <a href="#"> LINUX </a> </li>
-                                <li> <a href="#"> JQUERY </a> </li>
-                                <li> <a href="#"> OTROS </a> </li>
-                                <li> <a href="#"> PORTFOLIO </a> </li>
-                                <li> <a href="#"> CONTACTO </a> </li>
-                            </ul>
+            {% block menu %}
+                <div class="nav-container">
+                    <nav>
+                        <ul class="nav">
+                            <li> <a href="#"> HOME </a> </li>
+                            <li> <a href="#"> SYMFONY 2 </a> </li>
+                            <li> <a href="#"> LINUX </a> </li>
+                            <li> <a href="#"> JQUERY </a> </li>
+                            <li> <a href="#"> OTROS </a> </li>
+                            <li> <a href="#"> PORTFOLIO </a> </li>
+                            <li> <a href="#"> CONTACTO </a> </li>
+                        </ul>
 
-                        </nav>
-                    </div>
-                {% endblock %}            
+                    </nav>
+                </div>
             {% endblock %}
-
-            {% block footer %}{% endblock %}
-        </div>
+            
+            <div class="body">
+                {% block body %} {% endblock %}                        
+            </div>
+            
+            <div class="footer">
+                {% block footer %}{% endblock %}
+            </div>
     </body>
 </html>
