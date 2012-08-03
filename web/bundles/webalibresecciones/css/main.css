@@ -102,7 +102,19 @@ body {
 	/*padding: 5px 0;*/
 	display: block;
 }
-  
+
+
+
+.out-container .hoverhome:hover{
+	width: 100%;
+	opacity: 0.3;
+	filter: alpha(opacity = 30);
+	background-color: #dc7a10;
+}
+ 
+ .out-container .hoverhome a {
+	text-decoration: none;
+} 
 
 .out-container .line-grey {
     height: 4px;
@@ -211,8 +223,8 @@ body {
 .out-container .body .present .parrafo {
 	margin: 20px auto 20px auto;
 	color: #666;
-	font-size: 18px;
-	font-family: arial;
+	font-size: 19px;
+	font-family: tahoma, arial;
 	text-align: justify;
 
 
@@ -239,12 +251,16 @@ body {
 
 
 .page-donwload {
-    height: 100%;
-    margin-top: 25px;
-    padding: 20px 0;
-    position: relative;
-    width: 100%;
-    opacity: 0.7;
-    filter: alpha(opacity = 70);
-    background-color: #f1ebeb;
+	height: 100%;
+	margin: 25px auto 25px auto;
+	padding: 20px 0;
+	position: relative;
+	width: 100%;
+	opacity: 0.7;
+	filter: alpha(opacity = 70);
+	background-color: #f1ebeb;
+	font-family: tahoma, arial;
+	color: #666;
+	font-size: 19px;
+	text-align: center;	
 }
