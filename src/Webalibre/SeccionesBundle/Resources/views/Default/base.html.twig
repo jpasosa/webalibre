@@ -24,7 +24,18 @@
                     <div class="line-grey"> </div>
                         <div class="header">
                             {% block header %}
-                                Bienvendo a W E B A  L I B R E
+                                <h2 class="title">
+                                    W E B A L I B R E
+                                </h2>
+                                <h2 class="subtitle">
+                                    web libre para desarrolladores
+                                </h2>
+                                <div class="personal-data">
+                                    <div class="tel">
+                                    </div>
+                                    <div class="email">
+                                    </div>
+                                </div>
                             {% endblock %}
                         </div>
                     <div class="line-grey"> </div>
@@ -34,15 +45,14 @@
                 <div class="nav-container">
                     <nav>
                         <ul class="nav">
-                            <li> <a href="#"> HOME </a> </li>
-                            <li> <a href="#"> SYMFONY 2 </a> </li>
-                            <li> <a href="#"> LINUX </a> </li>
-                            <li> <a href="#"> JQUERY </a> </li>
-                            <li> <a href="#"> OTROS </a> </li>
-                            <li> <a href="#"> PORTFOLIO </a> </li>
-                            <li> <a href="#"> CONTACTO </a> </li>
+                            <li> <a href="{{ path('wls_homepage') }}"> HOME </a> </li>
+                            <li> <a href="{{ path('wls_symfony2') }}"> SYMFONY 2 </a> </li>
+                            <li> <a href="{{ path('wls_linux') }}"> LINUX </a> </li>
+                            <li> <a href="{{ path('wls_jquery') }}"> JQUERY </a> </li>
+                            <li> <a href="{{ path('wls_otros') }}"> OTROS </a> </li>
+                            <li> <a href="{{ path('wls_portfolio') }}"> PORTFOLIO </a> </li>
+                            <li> <a href="{{ path('wls_contacto') }}"> CONTACTO </a> </li>
                         </ul>
-
                     </nav>
                 </div>
             {% endblock %}
@@ -69,13 +79,13 @@
                     <div class="nav-footer">
                         <nav>
                             <ul class="nav">
-                                <li> <a href="#"> HOME </a> </li>
-                                <li> <a href="#"> SYMFONY 2 </a> </li>
-                                <li> <a href="#"> LINUX </a> </li>
-                                <li> <a href="#"> JQUERY </a> </li>
-                                <li> <a href="#"> OTROS </a> </li>
-                                <li> <a href="#"> PORTFOLIO </a> </li>
-                                <li> <a href="#"> CONTACTO </a> </li>
+                                <li> <a href="{{ path('wls_homepage') }}"> HOME </a> </li>
+                                <li> <a href="{{ path('wls_symfony2') }}"> SYMFONY 2 </a> </li>
+                                <li> <a href="{{ path('wls_linux') }}"> LINUX </a> </li>
+                                <li> <a href="{{ path('wls_jquery') }}"> JQUERY </a> </li>
+                                <li> <a href="{{ path('wls_otros') }}"> OTROS </a> </li>
+                                <li> <a href="{{ path('wls_portfolio') }}"> PORTFOLIO </a> </li>
+                                <li> <a href="{{ path('wls_contacto') }}"> CONTACTO </a> </li>
                             </ul>
                         </nav>
                     </div>
