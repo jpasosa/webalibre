@@ -261,6 +261,17 @@ body {
 	border-radius: 5px;
 }
 
+.out-container .body .box-news .col-1 .subtitle,
+.out-container .body .box-news .col-2 .subtitle,
+.out-container .body .box-news .col-3 .subtitle {
+	border-top: 1px solid #dc7a10;
+	border-bottom: 1px solid #dc7a10;
+	opacity: 0.3;
+ 	filter: alpha(opacity = 20);
+	padding: 10px 0 10px 0;
+	/*width: 300px;*/
+}
+
 .out-container .body .box-news .col-1 .text,
 .out-container .body .box-news .col-2 .text,
 .out-container .body .box-news .col-3 .text {
@@ -272,6 +283,18 @@ body {
 .out-container .body .box-news .col-2 .text p,
 .out-container .body .box-news .col-3 .text p {
 	margin: 10px auto 10px auto;
+}
+
+.out-container .body .box-news .col-1 .leermas,
+.out-container .body .box-news .col-2 .leermas,
+.out-container .body .box-news .col-3 .leermas {
+	float: right;
+}
+
+.out-container .body .box-news .col-1 .leermas img:hover,
+.out-container .body .box-news .col-2 .leermas img:hover,
+.out-container .body .box-news .col-3 .leermas img:hover {
+	background-image: url(../bundles/webalibresecciones/images/home/boton-leer-mas-hover.png) no-repeat;
 }
 
 .page-donwload {
@@ -293,7 +316,7 @@ body {
 
 .out-container .footer {
 	border-top: solid 4px #dc7a10;
-	height: 200px;
+	height: 270px;
 	position: relative;
 	width: 100%;
 	opacity: 0.8;
@@ -304,3 +327,80 @@ body {
 	/*font-size: 19px;*/
 	/*text-align: center;	*/
 }
+
+.out-container .footer .logos {
+	height: 200px;
+	width: 100%;
+	margin: auto;
+	float: left;
+}
+
+.out-container .footer .logos .up img {
+	margin: 10px 67px 10px 67px;
+}
+
+.out-container .footer .logos .down img {
+	margin: 10px 105px 10px 105px;
+}
+
+.out-container .footer .nav-footer {
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+	/*padding: 3px 0 3px 0;*/
+}
+
+.out-container .footer .nav-footer nav{
+	font-size: 11px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.out-container .footer .nav-footer nav ul.nav{
+	list-style: none;
+	text-decoration: none;
+}
+
+.out-container .footer .nav-footer nav ul.nav li{
+	margin: 0 7px 0 7px;
+	padding: 0 10px 0 10px;
+	/*font-size: 20px;*/
+	position: relative;
+	display: inline-block;
+	zoom: 1;
+	text-decoration: none;
+}
+
+.out-container .footer .nav-footer nav ul.nav li:hover{
+	/*background-color: #dc7a10;*/
+	text-decoration: underline;
+	/*opacity: 0.3;
+		filter: alpha(opacity = 20);
+	-moz-border-radius: 10px;
+	border-radius: 10px;*/
+}
+
+.out-container .footer .nav-footer nav ul.nav li a{
+	text-decoration: none;
+}
+
+
+
+
+.out-container .footer .box-final {
+	background-color: #DC7A10;
+	height: 20px;
+	width: 100%;
+	text-align: center;
+	opacity: 0.8;
+	filter: alpha(opacity = 80);
+	padding: 4px 0 0 0;
+}
+
+
+
+
+
+
+

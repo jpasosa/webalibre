@@ -8,8 +8,23 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 class DefaultController extends Controller
 {
     
-    public function homepageAction()
-    {
+    public function homepageAction() {
         return $this->render('WebalibreSeccionesBundle:Default:homepage.html.twig');
     }
+
+    public function homepageAction() {
+        return $this->render('WebalibreSeccionesBundle:Default:homepage.html.twig');
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
 }

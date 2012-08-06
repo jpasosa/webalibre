@@ -1,3 +1,21 @@
 wls_homepage:
     pattern:  /
     defaults: { _controller: WebalibreSeccionesBundle:Default:homepage }
+wls_symfony2:
+    pattern:  /s2
+    defaults: { _controller: WebalibreSeccionesBundle:Default:symfony2 }
+wls_linux:
+    pattern:  /linux
+    defaults: { _controller: WebalibreSeccionesBundle:Default:linux }
+wls_jquery:
+    pattern:  /jquery
+    defaults: { _controller: WebalibreSeccionesBundle:Default:jquery }
+wls_otros:
+    pattern:  /otros
+    defaults: { _controller: WebalibreSeccionesBundle:Default:otros }
+wls_portfolio:
+    pattern:  /portfolio
+    defaults: { _controller: WebalibreSeccionesBundle:Default:portfolio }
+wls_contacto:
+    pattern:  /contacto
+    defaults: { _controller: WebalibreSeccionesBundle:Default:contacto }
