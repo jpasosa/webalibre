@@ -274,7 +274,7 @@ body {
 .out-container .body .box-news .col-1 .subtitle,
 .out-container .body .box-news .col-2 .subtitle,
 .out-container .body .box-news .col-3 .subtitle {
-	margin: 30px 0 0 0;
+	margin: 5px 0 35px 0;
 	border-top: 1px solid #dc7a10;
 	border-bottom: 1px solid #dc7a10;
 	padding: 10px 0 10px 0;
