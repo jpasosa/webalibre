@@ -274,10 +274,11 @@ body {
 .out-container .body .box-news .col-1 .subtitle,
 .out-container .body .box-news .col-2 .subtitle,
 .out-container .body .box-news .col-3 .subtitle {
-	margin: 5px 0 35px 0;
-	border-top: 1px solid #dc7a10;
+	margin: 0 0 35px 0;
+	/*border-top: 1px solid #dc7a10;*/
 	border-bottom: 1px solid #dc7a10;
-	padding: 10px 0 10px 0;
+	padding: 0px 0 10px 0;
+	font-size: 12px;
 }
 
 .out-container .body .box-news .col-1 .text,
@@ -293,16 +294,22 @@ body {
 	margin: 10px auto 10px auto;
 }
 
-.out-container .body .box-news .col-1 .leermas,
-.out-container .body .box-news .col-2 .leermas,
-.out-container .body .box-news .col-3 .leermas {
+.out-container .body .box-news .col-1 a.leermas,
+.out-container .body .box-news .col-2 a.leermas,
+.out-container .body .box-news .col-3 a.leermas {
 	float: right;
+	margin: 20px 5px 0 0;
 }
 
-.out-container .body .box-news .col-1 .leermas img:hover,
-.out-container .body .box-news .col-2 .leermas img:hover,
-.out-container .body .box-news .col-3 .leermas img:hover {
-	background-image: url(../bundles/webalibresecciones/images/home/boton-leer-mas-hover.png) no-repeat;
+
+.out-container .body .box-news .col-1 a.leermas img:hover,
+.out-container .body .box-news .col-2 a.leermas img:hover,
+.out-container .body .box-news .col-3 a.leermas img:hover {
+	background-color: #000000;
+	opacity: 0.6;
+	filter: alpha(opacity = 60);
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 .page-donwload {
