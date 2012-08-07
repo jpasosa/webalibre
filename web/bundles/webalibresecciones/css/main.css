@@ -268,12 +268,13 @@ body {
 	width: 300px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	padding: 0 0 0 5px;
+	padding: 4px 0 4px 5px;
 }
 
 .out-container .body .box-news .col-1 .subtitle,
 .out-container .body .box-news .col-2 .subtitle,
 .out-container .body .box-news .col-3 .subtitle {
+	margin: 30px 0 0 0;
 	border-top: 1px solid #dc7a10;
 	border-bottom: 1px solid #dc7a10;
 	padding: 10px 0 10px 0;
@@ -342,8 +343,20 @@ body {
 	float: left;
 }
 
+.out-container .footer .logos .up a:hover {
+	text-decoration: none;
+}
+
 .out-container .footer .logos .up img {
 	margin: 10px 67px 10px 67px;
+}
+
+.out-container .footer .logos .down a {
+	text-decoration: none;
+}
+
+.out-container .footer .logos .down a:hover {
+	text-decoration: none;
 }
 
 .out-container .footer .logos .down img {
