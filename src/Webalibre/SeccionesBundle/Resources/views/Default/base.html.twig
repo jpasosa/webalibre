@@ -20,7 +20,7 @@
         {% block javascripts %}{% endblock %}
         <div class="out-container">        
             <div class="hoverhome">
-                <a href="http://webalibre/app_dev.php"> <!-- TODO: reemplazar por equivalente en S2 -->
+                <a href="{{ path('wls_homepage') }}"> 
                     <div class="line-grey"> </div>
                         <div class="header">
                             {% block header %}
@@ -92,13 +92,33 @@
                     <div class="nav-footer">
                         <nav>
                             <ul class="nav">
-                                <li> <a href="{{ path('wls_homepage') }}"> HOME </a> </li>
-                                <li> <a href="{{ path('wls_symfony2') }}"> SYMFONY 2 </a> </li>
-                                <li> <a href="{{ path('wls_linux') }}"> LINUX </a> </li>
-                                <li> <a href="{{ path('wls_jquery') }}"> JQUERY </a> </li>
-                                <li> <a href="{{ path('wls_otros') }}"> OTROS </a> </li>
-                                <li> <a href="{{ path('wls_portfolio') }}"> PORTFOLIO </a> </li>
-                                <li> <a href="{{ path('wls_contacto') }}"> CONTACTO </a> </li>
+                                <li class="{% if actionname == '' %}activo{% endif %}">
+                                    <a href="{{ path('wls_homepage') }}"> HOME </a>
+                                </li>
+                                
+                                <li class="{% if actionname == 's2' %}activo{% endif %}">
+                                    <a href="{{ path('wls_symfony2') }}"> SYMFONY 2 </a>
+                                </li>
+                                
+                                <li class="{% if actionname == 'linux' %}activo{% endif %}">
+                                    <a href="{{ path('wls_linux') }}"> LINUX </a>
+                                </li>
+                                
+                                <li class="{% if actionname == 'jquery' %}activo{% endif %}">
+                                    <a href="{{ path('wls_jquery') }}"> JQUERY </a>
+                                </li>
+                                
+                                <li class="{% if actionname == 'otros' %}activo{% endif %}">
+                                    <a href="{{ path('wls_otros') }}"> OTROS </a>
+                                </li>
+                                
+                                <li class="{% if actionname == 'portfolio' %}activo{% endif %}">
+                                    <a href="{{ path('wls_portfolio') }}"> PORTFOLIO </a>
+                                </li>
+                                
+                                <li class="{% if actionname == 'contacto' %}activo{% endif %}">
+                                    <a href="{{ path('wls_contacto') }}"> CONTACTO </a>
+                                </li>
                             </ul>
                         </nav>
                     </div>
