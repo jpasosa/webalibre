@@ -126,9 +126,16 @@ body {
 }
 
 .out-container .header {
-  	width: 1000px;
+  	/*width: 1000px;*/
   	margin: 0 auto 0 auto;
+  	opacity: 0.3;			
+	filter: alpha(opacity = 30);
+	background-color: #dc7a10;
 
+}
+
+.out-container .header a {
+  	text-decoration: none;
 }
 
 .out-container .header .title {
@@ -145,18 +152,6 @@ body {
   	letter-spacing: 3px;
 }
 
-.out-container .header .personal-data {
-	/*float: left;*/
-	display: block;
-	font-size: 16px;
-}
-
-.out-container .header .personal-data .tel {
-  	float: left;
-}
-
-.out-container .header .personal-data .email {
-}
 
 .out-container .nav-container {
 	width: 1000px;

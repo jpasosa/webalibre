@@ -23,28 +23,18 @@
     <body>
         
         <div class="out-container">        
-            <div class="hoverhome">
-                <a href="{{ path('wls_homepage') }}"> 
-                    <div class="line-grey"> </div>
                         <div class="header">
                             {% block header %}
+                            <a href="{{ path('wls_homepage') }}"> 
                                 <h2 class="title">
                                     W E B A L I B R E
                                 </h2>
                                 <h2 class="subtitle">
                                     web libre para desarrolladores
                                 </h2>
-                                <div class="personal-data">
-                                    <div class="tel">
-                                    </div>
-                                    <div class="email">
-                                    </div>
-                                </div>
+                            </a>
                             {% endblock %}
                         </div>
-                    <div class="line-grey"> </div>
-                </a>
-            </div>
             {% block menu %}
                 <div class="nav-container">
                     <nav>
