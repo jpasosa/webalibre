@@ -204,9 +204,20 @@ body {
 	border-radius: 10px;
 }
 
+.out-container .nav-container nav ul.nav li.activo {
+	background-color: #dc7a10;
+	text-decoration: none;
+	opacity: 0.3;
+ 	filter: alpha(opacity = 20);
+	/*width: 140px;*/
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
 .out-container .nav-container nav ul.nav li a {
 	text-decoration: none;
 }
+
 
 .out-container .body {
 
