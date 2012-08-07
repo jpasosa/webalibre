@@ -13,11 +13,15 @@
         <link rel="stylesheet" href="{{ asset('bundles/webalibresecciones/css/main.css')}}" type="text/css" media="screen"/>
         {% endblock %}
         <link rel="shortcut icon" type="image/icon" href="{{ asset('bundles/webalibresecciones/images/webalibre.ico') }}" />
-        
+        {% block javascripts %}
+            <script src="{{ asset('bundles/webalibresecciones/js/jquery-1.7.2.min.js') }}"></script>
+            <script src="{{ asset('bundles/webalibresecciones/js/scroll-up.js') }}"></script>
+
+        {% endblock %}
     </head>
     
     <body>
-        {% block javascripts %}{% endblock %}
+        
         <div class="out-container">        
             <div class="hoverhome">
                 <a href="{{ path('wls_homepage') }}"> 
@@ -127,5 +131,6 @@
                     </div>
                 {% endblock %}
             </div>
+            <a href="#" class="scrollup">Scroll</a>
     </body>
 </html>
