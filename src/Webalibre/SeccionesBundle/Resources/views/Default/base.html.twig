@@ -16,7 +16,7 @@
         {% block javascripts %}
             <script src="{{ asset('bundles/webalibresecciones/js/jquery-1.7.2.min.js') }}"></script>
             <script src="{{ asset('bundles/webalibresecciones/js/scroll-up.js') }}"></script>
-
+            <script src="{{ asset('bundles/webalibresecciones/js/margin-fix.js') }}"></script>
         {% endblock %}
     </head>
     
@@ -73,16 +73,24 @@
                     <div class="logos">
                         <div class="up">
                             <a href="https://github.com/">
-                                <img src="{{ asset('bundles/webalibresecciones/images/base/footer/git.png') }}" alt="git" />
+                                <img  class="footer-img" width="145" height="75" 
+                                    src="{{ asset('bundles/webalibresecciones/images/base/footer/git.png') }}"
+                                    alt="git" />
                             </a>
                             <a href="http://www.gnu.org/home.es.html">
-                                <img src="{{ asset('bundles/webalibresecciones/images/base/footer/gnu.png') }}" alt="gnulinux" />
+                                <img class="footer-img" width="152" height="75"
+                                    src="{{ asset('bundles/webalibresecciones/images/base/footer/gnu.png') }}"
+                                    alt="gnulinux" />
                             </a>
                             <a href="http://jquery.com/">
-                                <img src="{{ asset('bundles/webalibresecciones/images/base/footer/jquery.png') }}" alt="jquery" />
+                                <img class="footer-img" width="305" height="75"
+                                    src="{{ asset('bundles/webalibresecciones/images/base/footer/jquery.png') }}"
+                                    alt="jquery" />
                             </a>
                             <a href="http://www.mysql.com/">
-                                <img src="{{ asset('bundles/webalibresecciones/images/base/footer/mysql.png') }}" alt="mysql" />
+                                <img class="footer-img" width="103" height="75" 
+                                    src="{{ asset('bundles/webalibresecciones/images/base/footer/mysql.png') }}"
+                                    alt="mysql" />
                             </a>
                         </div>
                         <div class="down">
